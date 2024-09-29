@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <script src="block.js"></script>
     <div id="header">
         <h1>Welcome to Addis Ababa! 🌍</h1>
         <p id="sub-heading">The capital city of Ethiopia, known for its rich culture, history, and beauty.</p>
@@ -29,6 +30,16 @@
         <div class="info-box">
             <h2>Cultural Highlights</h2>
             <p>Addis Ababa is known for its vibrant cultural life, including music, arts, and traditional coffee ceremonies. The city's markets, such as Mercato, are bustling with activity, offering a wide range of Ethiopian goods, including spices, crafts, and more.</p>
+        </div>
+        <div class="info-box">
+            <h2>Try My Game</h2>
+            <p>Roll the dice and see if you can hit exactly 11 to win! If your total goes over, you lose.</p>
+            <p>So far you have rolled:</p>
+            <ul id="rolls-list"></ul>
+            <button id="button_roll">Roll the dice</button>
+            <p>Total: <span id="total">0</span>. <span id="info">Keep playing!</span></p>
+            <button id="button_remove">Remove the last roll</button>
+            <button id="button_restart">Start again</button>
         </div>
     </div>
 
